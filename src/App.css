@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+input {
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box; 
+}
+
+.App {
+  text-align: center;
+ 
+}
+html {
+  background: gray;
+  padding: 50px 0px;
+ 
+}
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.container {
+  width: 500px;
+  margin: 0px auto;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid black;
+  max-height: 500px;
+  overflow: scroll;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+ 
+  
+}
+
+.student {
+  border-bottom: 1px solid black;
+  padding:10px 30px;
+  display: flex; position:relative;
+  
+}
+
+.student:last-child {
+  border-bottom: none;
+}
+
+.student > div {
+  justify-content: flex-start;
+}
+
+
+.student .student-img {
+ width: 100px;
+ height: 100px;
+ border-radius: 50%;
+ border: 2px solid gray;
+ text-align: center;
+ overflow: hidden;
+ position: relative;
+
+
+}
+
+.student .student-img img{
+   width: 80px;
+   height: 80px;
+   position: absolute;
+   left: 50%;
+   bottom: 0px;
+   margin-left: -40px;
+}
+
+.content-box {
+  padding-left: 20px;
+}
+.student-info-full {
+  padding-left: 10px;
+}
+
+.student-info-name {
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.student-info-full {
+  font-size : 14px;
+  line-height: 18px;
+}
+
+form {
+  padding: 0px 5px;
+}
+form input,
+.input-tags input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid grey;
+  padding: 10px 20px;
+  
+}
+.input-tags {
+  max-width: 180px;
+  margin-top: 10px;
+  
+}
+
+.input-tags input {
+  width: 100%;
+  padding: 5px 10px;
+  display: block;
+}
+
+form input:focus,
+.input-tags input:focus  {
+  outline: none;
+  border-bottom: 1px solid black;
+}
+
+.stud-grad-additional {
+  padding:0px;
+  padding:0px;
+  margin:0px;
+  margin-top: 20px;
+  list-style: none;
+}
+.stud-grad-additional li {
+  padding:0px;
+  padding-left:10px;
+  margin:0px;
+  border:none;
+}
+
+.stud-grad-additional li span {
+  margin-left: 10px;
+}
+
+
+.student-info-name button {
+  position:absolute;
+  width:20px;
+  height:20px;
+  background:none;
+  font-weight:bold;
+  color: grey;
+  outline:none;
+  border:none;
+  font-size: 30px;
+  top: 5px;
+  right: 30px;
+  cursor: pointer;
+  text-align: center;
+  line-height: 30px;
+}
+
+.but{
+  position: relative;
+  font-style: normal;
+}
+.but:before{
+  content: "+"
+}
+.but.button-minus:before{
+  content: "-"
+}
+.student-info-name button:hover {
+  color: black;
+}
+
+.student-info-tags{
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+.tagsList__tag{
+border: none;
+padding: 3px 7px;
+display: inline-block;
+background-color: lightgray;
+border-radius: 5px;
+color: black;
+margin: 0px 5px;
+}
+.input-tags li.input-tag__tags_input {
+  padding: 0px;
+  margin-top: 15px;
+}
